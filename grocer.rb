@@ -3,6 +3,15 @@ pp collection
   # Implement me first!
   #
   # Consult README for inputs and outputs
+  count = 0
+  while count < collection.length do
+    if collection[count][:item] == name
+      return name
+    else
+    count += 1
+    end
+
+  end
 end
 
 def consolidate_cart(cart)
